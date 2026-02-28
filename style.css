@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f0f1a, #1c1c2b);
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+/* 🌈 Neon animado elegante */
+#relogio {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  animation: neonSuave 12s ease-in-out infinite;
+}
+
+#mensagem {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  animation: neonSuave 12s ease-in-out infinite;
+}
+
+@keyframes neonSuave {
+  0% {
+    color: #c77dff;
+    text-shadow: 0 0 5px #c77dff, 0 0 15px rgba(199,125,255,0.4);
+  }
+  25% {
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff, 0 0 15px rgba(0,255,255,0.4);
+  }
+  50% {
+    color: #39ff14;
+    text-shadow: 0 0 5px #39ff14, 0 0 15px rgba(57,255,20,0.4);
+  }
+  75% {
+    color: #ff8c00;
+    text-shadow: 0 0 5px #ff8c00, 0 0 15px rgba(255,140,0,0.4);
+  }
+  100% {
+    color: #c77dff;
+    text-shadow: 0 0 5px #c77dff, 0 0 15px rgba(199,125,255,0.4);
+  }
+}
+
+#data {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+/* Botão elegante */
+.botaoSom {
+  margin-bottom: 20px;
+  padding: 8px 18px;
+  border-radius: 25px;
+  border: 1px solid rgba(199,125,255,0.5);
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botaoSom:hover {
+  background: rgba(199,125,255,0.1);
+  box-shadow: 0 0 10px rgba(199,125,255,0.4);
+}
+
+footer {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+footer a {
+  text-decoration: none;
+  color: #c77dff;
+}
