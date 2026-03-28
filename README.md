@@ -1,3 +1,6 @@
+
+
+
 # ⏰ Relógio Digital (Digital Clock)
 
 Aplicação web desenvolvida com **HTML, CSS e JavaScript**, com suporte a **PWA (Progressive Web App)** 📱.
@@ -63,6 +66,3 @@ Desenvolvido por **Marcos Dev** 🚀
 ## ⭐ Sobre o projeto
 
 Este projeto foi criado com o objetivo de praticar **JavaScript** e desenvolvimento web, evoluindo para a criação de aplicações modernas como **PWAs**.
-
----
-
